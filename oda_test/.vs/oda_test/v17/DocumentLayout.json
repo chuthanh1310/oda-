@@ -1,0 +1,361 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|c:\\users\\user\\desktop\\oda-\\oda_test\\oda_test\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\controllers\\dulieuntcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\controllers\\dulieuntcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\controllers\\filemanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\controllers\\filemanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\models\\sqldbsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\models\\sqldbsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\content\\script\\layer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\content\\script\\layer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\scripts\\modernizr-2.8.3.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\scripts\\modernizr-2.8.3.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\scripts\\jquery.validate.unobtrusive.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\scripts\\jquery.validate.unobtrusive.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\scripts\\jquery.validate.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\scripts\\jquery.validate.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\models\\sqlserverunittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\models\\sqlserverunittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\scripts\\bootstrap.esm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\scripts\\bootstrap.esm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\models\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\models\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\models\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\models\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\models\\contentpagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6C7AA8-6C63-44CC-A7F6-1C6AF869C5A7}|oda_test\\oda_test.csproj|solutionrelative:oda_test\\models\\contentpagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Controllers\\FileManagerController.cs",
+              "RelativeDocumentMoniker": "oda_test\\Controllers\\FileManagerController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Controllers\\FileManagerController.cs",
+              "RelativeToolTip": "oda_test\\Controllers\\FileManagerController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAJEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T04:37:59.529Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SqlDbSetup.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Models\\SqlDbSetup.cs",
+              "RelativeDocumentMoniker": "oda_test\\Models\\SqlDbSetup.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Models\\SqlDbSetup.cs",
+              "RelativeToolTip": "oda_test\\Models\\SqlDbSetup.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T02:17:53.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "oda_test\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "oda_test\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T04:21:10.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DulieuNTController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Controllers\\DulieuNTController.cs",
+              "RelativeDocumentMoniker": "oda_test\\Controllers\\DulieuNTController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Controllers\\DulieuNTController.cs",
+              "RelativeToolTip": "oda_test\\Controllers\\DulieuNTController.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAkwFMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T04:24:31.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "oda_test\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "oda_test\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAADwvy4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T01:58:20.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Web.config",
+              "RelativeDocumentMoniker": "oda_test\\Web.config",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Web.config",
+              "RelativeToolTip": "oda_test\\Web.config",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAIwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-23T02:24:36.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "oda_test\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "oda_test\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T02:41:58.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "layer.js",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Content\\script\\layer.js",
+              "RelativeDocumentMoniker": "oda_test\\Content\\script\\layer.js",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Content\\script\\layer.js",
+              "RelativeToolTip": "oda_test\\Content\\script\\layer.js",
+              "ViewState": "AQIAABUBAAAAAAAAAAAkwOEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-18T04:21:02.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "oda_test\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "oda_test\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T01:58:40.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "modernizr-2.8.3.js",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Scripts\\modernizr-2.8.3.js",
+              "RelativeDocumentMoniker": "oda_test\\Scripts\\modernizr-2.8.3.js",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Scripts\\modernizr-2.8.3.js",
+              "RelativeToolTip": "oda_test\\Scripts\\modernizr-2.8.3.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-18T03:22:59.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "oda_test\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "oda_test\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAwwDEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T02:07:13.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "oda_test\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "oda_test\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAFACAAAAAAAAAAAwwGMCAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T02:06:49.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "jquery.validate.min.js",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Scripts\\jquery.validate.min.js",
+              "RelativeDocumentMoniker": "oda_test\\Scripts\\jquery.validate.min.js",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Scripts\\jquery.validate.min.js",
+              "RelativeToolTip": "oda_test\\Scripts\\jquery.validate.min.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-18T03:23:05.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "jquery.validate.unobtrusive.js",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Scripts\\jquery.validate.unobtrusive.js",
+              "RelativeDocumentMoniker": "oda_test\\Scripts\\jquery.validate.unobtrusive.js",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Scripts\\jquery.validate.unobtrusive.js",
+              "RelativeToolTip": "oda_test\\Scripts\\jquery.validate.unobtrusive.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-18T03:23:06.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "oda_test\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "oda_test\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T15:14:26.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "bootstrap.esm.js",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Scripts\\bootstrap.esm.js",
+              "RelativeDocumentMoniker": "oda_test\\Scripts\\bootstrap.esm.js",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Scripts\\bootstrap.esm.js",
+              "RelativeToolTip": "oda_test\\Scripts\\bootstrap.esm.js",
+              "ViewState": "AQIAAAsBAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-18T02:52:12.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "oda_test\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "oda_test\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T14:47:19.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SQLServerUnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Models\\SQLServerUnitTest1.cs",
+              "RelativeDocumentMoniker": "oda_test\\Models\\SQLServerUnitTest1.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Models\\SQLServerUnitTest1.cs",
+              "RelativeToolTip": "oda_test\\Models\\SQLServerUnitTest1.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAowFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T04:20:43.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dataHelper.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Models\\dataHelper.cs",
+              "RelativeDocumentMoniker": "oda_test\\Models\\dataHelper.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Models\\dataHelper.cs",
+              "RelativeToolTip": "oda_test\\Models\\dataHelper.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAzwCAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:44:23.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "database.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Models\\database.cs",
+              "RelativeDocumentMoniker": "oda_test\\Models\\database.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Models\\database.cs",
+              "RelativeToolTip": "oda_test\\Models\\database.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:42:00.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ContentPageModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Models\\ContentPageModel.cs",
+              "RelativeDocumentMoniker": "oda_test\\Models\\ContentPageModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\oda-\\oda_test\\oda_test\\Models\\ContentPageModel.cs",
+              "RelativeToolTip": "oda_test\\Models\\ContentPageModel.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA8wCQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:15:23.234Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

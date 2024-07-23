@@ -1,0 +1,1780 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="odaModelStoreContainer" CdmEntityContainer="odaEntities">
+    <EntitySetMapping Name="bgmap_commune">
+      <EntityTypeMapping TypeName="odaModel.bgmap_commune">
+        <MappingFragment StoreEntitySet="bgmap_commune">
+          <ScalarProperty Name="gid" ColumnName="gid" />
+          <ScalarProperty Name="ten_xa" ColumnName="ten_xa" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="hesokhau" ColumnName="hesokhau" />
+          <ScalarProperty Name="x_vido" ColumnName="x_vido" />
+          <ScalarProperty Name="y_kinhdo" ColumnName="y_kinhdo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bgmap_district">
+      <EntityTypeMapping TypeName="odaModel.bgmap_district">
+        <MappingFragment StoreEntitySet="bgmap_district">
+          <ScalarProperty Name="gid" ColumnName="gid" />
+          <ScalarProperty Name="ten_huyen" ColumnName="ten_huyen" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="danso" ColumnName="danso" />
+          <ScalarProperty Name="dinhmucsudungnuoc" ColumnName="dinhmucsudungnuoc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bgmap_province">
+      <EntityTypeMapping TypeName="odaModel.bgmap_province">
+        <MappingFragment StoreEntitySet="bgmap_province">
+          <ScalarProperty Name="gid" ColumnName="gid" />
+          <ScalarProperty Name="ten_tinh" ColumnName="ten_tinh" />
+          <ScalarProperty Name="orderindex" ColumnName="orderindex" />
+          <ScalarProperty Name="vungid" ColumnName="vungid" />
+          <ScalarProperty Name="luuvucid" ColumnName="luuvucid" />
+          <ScalarProperty Name="tinh_uuid" ColumnName="tinh_uuid" />
+          <ScalarProperty Name="ordervung" ColumnName="ordervung" />
+          <ScalarProperty Name="luuvuc_ngaplut_id" ColumnName="luuvuc_ngaplut_id" />
+          <ScalarProperty Name="matinh_satlo" ColumnName="matinh_satlo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_boviaviahe">
+      <EntityTypeMapping TypeName="odaModel.iw_boviaviahe">
+        <MappingFragment StoreEntitySet="iw_boviaviahe">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="thuockenh" ColumnName="thuockenh" />
+          <ScalarProperty Name="loaict" ColumnName="loaict" />
+          <ScalarProperty Name="loaigeom" ColumnName="loaigeom" />
+          <ScalarProperty Name="tenduong" ColumnName="tenduong" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+          <ScalarProperty Name="chieudai" ColumnName="chieudai" />
+          <ScalarProperty Name="chieuday" ColumnName="chieuday" />
+          <ScalarProperty Name="ketcau" ColumnName="ketcau" />
+          <ScalarProperty Name="dientich" ColumnName="dientich" />
+          <ScalarProperty Name="chieurong" ColumnName="chieurong" />
+          <ScalarProperty Name="tuongchand" ColumnName="tuongchand" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_canal">
+      <EntityTypeMapping TypeName="odaModel.iw_canal">
+        <MappingFragment StoreEntitySet="iw_canal">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="sohieukenh" ColumnName="sohieukenh" />
+          <ScalarProperty Name="caododay" ColumnName="caododay" />
+          <ScalarProperty Name="dodoc_daykenh" ColumnName="dodoc_daykenh" />
+          <ScalarProperty Name="ondinh_rori" ColumnName="ondinh_rori" />
+          <ScalarProperty Name="cd_hieudung" ColumnName="cd_hieudung" />
+          <ScalarProperty Name="cr_longkenh" ColumnName="cr_longkenh" />
+          <ScalarProperty Name="cr_bokenh" ColumnName="cr_bokenh" />
+          <ScalarProperty Name="cc_longkenh" ColumnName="cc_longkenh" />
+          <ScalarProperty Name="chieuday_thanh" ColumnName="chieuday_thanh" />
+          <ScalarProperty Name="chieuday_day" ColumnName="chieuday_day" />
+          <ScalarProperty Name="cr_dayngoai" ColumnName="cr_dayngoai" />
+          <ScalarProperty Name="cd_kenhkiencohoa" ColumnName="cd_kenhkiencohoa" />
+          <ScalarProperty Name="loaikenh" ColumnName="loaikenh" />
+          <ScalarProperty Name="capkenh" ColumnName="capkenh" />
+          <ScalarProperty Name="chatlieu" ColumnName="chatlieu" />
+          <ScalarProperty Name="caodo_tuoi" ColumnName="caodo_tuoi" />
+          <ScalarProperty Name="dientich_tuoi" ColumnName="dientich_tuoi" />
+          <ScalarProperty Name="luulg_tke" ColumnName="luulg_tke" />
+          <ScalarProperty Name="luulg_tte" ColumnName="luulg_tte" />
+          <ScalarProperty Name="kt_matcat" ColumnName="kt_matcat" />
+          <ScalarProperty Name="vttb_dongchay" ColumnName="vttb_dongchay" />
+          <ScalarProperty Name="reservoir_id" ColumnName="reservoir_id" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="lytrinhtu" ColumnName="lytrinhtu" />
+          <ScalarProperty Name="lytrinhden" ColumnName="lytrinhden" />
+          <ScalarProperty Name="vitri" ColumnName="vitri" />
+          <ScalarProperty Name="dientich_tuoi_tichluy" ColumnName="dientich_tuoi_tichluy" />
+          <ScalarProperty Name="luulg_toida" ColumnName="luulg_toida" />
+          <ScalarProperty Name="luulg_toithieu" ColumnName="luulg_toithieu" />
+          <ScalarProperty Name="canal_id" ColumnName="canal_id" />
+          <ScalarProperty Name="taptoado" ColumnName="taptoado" />
+          <ScalarProperty Name="giaidoan_th" ColumnName="giaidoan_th" />
+          <ScalarProperty Name="loaimatcat" ColumnName="loaimatcat" />
+          <ScalarProperty Name="hs_nham" ColumnName="hs_nham" />
+          <ScalarProperty Name="hs_mai" ColumnName="hs_mai" />
+          <ScalarProperty Name="docao_vuotantoan" ColumnName="docao_vuotantoan" />
+          <ScalarProperty Name="dosau_mn_tk" ColumnName="dosau_mn_tk" />
+          <ScalarProperty Name="dosau_mn_toida" ColumnName="dosau_mn_toida" />
+          <ScalarProperty Name="dosau_mn_toithieu" ColumnName="dosau_mn_toithieu" />
+          <ScalarProperty Name="vtdc_lonnhat" ColumnName="vtdc_lonnhat" />
+          <ScalarProperty Name="vtdc_nhonhat" ColumnName="vtdc_nhonhat" />
+          <ScalarProperty Name="ct_doandaukenh" ColumnName="ct_doandaukenh" />
+          <ScalarProperty Name="dorong_botrai" ColumnName="dorong_botrai" />
+          <ScalarProperty Name="dorong_bophai" ColumnName="dorong_bophai" />
+          <ScalarProperty Name="trangthai" ColumnName="trangthai" />
+          <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+          <ScalarProperty Name="chieudai" ColumnName="chieudai" />
+          <ScalarProperty Name="chieucao" ColumnName="chieucao" />
+          <ScalarProperty Name="clndk_kichthuoc" ColumnName="clndk_kichthuoc" />
+          <ScalarProperty Name="clndk_hientrang" ColumnName="clndk_hientrang" />
+          <ScalarProperty Name="hientrang" ColumnName="hientrang" />
+          <ScalarProperty Name="temp_id" ColumnName="temp_id" />
+          <ScalarProperty Name="donviquanly" ColumnName="donviquanly" />
+          <ScalarProperty Name="capkenh_temp" ColumnName="capkenh_temp" />
+          <ScalarProperty Name="sokm_kenhdat" ColumnName="sokm_kenhdat" />
+          <ScalarProperty Name="sokm_daxuongcap" ColumnName="sokm_daxuongcap" />
+          <ScalarProperty Name="sokm_contot" ColumnName="sokm_contot" />
+          <ScalarProperty Name="capkenh_id" ColumnName="capkenh_id" />
+          <ScalarProperty Name="nangluc" ColumnName="nangluc" />
+          <ScalarProperty Name="chieurong" ColumnName="chieurong" />
+          <ScalarProperty Name="kichthuoc" ColumnName="kichthuoc" />
+          <ScalarProperty Name="diemdau" ColumnName="diemdau" />
+          <ScalarProperty Name="diemcuoi" ColumnName="diemcuoi" />
+          <ScalarProperty Name="vitricoc" ColumnName="vitricoc" />
+          <ScalarProperty Name="caitao" ColumnName="caitao" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_coc">
+      <EntityTypeMapping TypeName="odaModel.iw_coc">
+        <MappingFragment StoreEntitySet="iw_coc">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="thuockenh" ColumnName="thuockenh" />
+          <ScalarProperty Name="loaict" ColumnName="loaict" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_congtrinhcapnuocsach">
+      <EntityTypeMapping TypeName="odaModel.iw_congtrinhcapnuocsach">
+        <MappingFragment StoreEntitySet="iw_congtrinhcapnuocsach">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="lat" ColumnName="lat" />
+          <ScalarProperty Name="lon" ColumnName="lon" />
+          <ScalarProperty Name="nguoncap" ColumnName="nguoncap" />
+          <ScalarProperty Name="loaicongtrinh_id" ColumnName="loaicongtrinh_id" />
+          <ScalarProperty Name="dungtich" ColumnName="dungtich" />
+          <ScalarProperty Name="songuoicap" ColumnName="songuoicap" />
+          <ScalarProperty Name="congsuatcapnuoc" ColumnName="congsuatcapnuoc" />
+          <ScalarProperty Name="hethongxuly" ColumnName="hethongxuly" />
+          <ScalarProperty Name="hethongbechua" ColumnName="hethongbechua" />
+          <ScalarProperty Name="hethongphanphoi" ColumnName="hethongphanphoi" />
+          <ScalarProperty Name="chatluongnuoccap" ColumnName="chatluongnuoccap" />
+          <ScalarProperty Name="gianuoc" ColumnName="gianuoc" />
+          <ScalarProperty Name="namxaydung" ColumnName="namxaydung" />
+          <ScalarProperty Name="namduvaosudung" ColumnName="namduvaosudung" />
+          <ScalarProperty Name="hientranghoatdong_id" ColumnName="hientranghoatdong_id" />
+          <ScalarProperty Name="tinhtranghuhong" ColumnName="tinhtranghuhong" />
+          <ScalarProperty Name="dexuatgiaiphapdautu" ColumnName="dexuatgiaiphapdautu" />
+          <ScalarProperty Name="songuoitangthem" ColumnName="songuoitangthem" />
+          <ScalarProperty Name="uockinhphidautu" ColumnName="uockinhphidautu" />
+          <ScalarProperty Name="chudautu" ColumnName="chudautu" />
+          <ScalarProperty Name="duan" ColumnName="duan" />
+          <ScalarProperty Name="donviquanly" ColumnName="donviquanly" />
+          <ScalarProperty Name="songuoivanhanh" ColumnName="songuoivanhanh" />
+          <ScalarProperty Name="cn_namduavaosudung" ColumnName="cn_namduavaosudung" />
+          <ScalarProperty Name="cn_dientichdat" ColumnName="cn_dientichdat" />
+          <ScalarProperty Name="cn_dientichsansudung" ColumnName="cn_dientichsansudung" />
+          <ScalarProperty Name="cn_congsuatthietke" ColumnName="cn_congsuatthietke" />
+          <ScalarProperty Name="cn_congsuatthucte" ColumnName="cn_congsuatthucte" />
+          <ScalarProperty Name="cn_sohosudungthietke" ColumnName="cn_sohosudungthietke" />
+          <ScalarProperty Name="cn_sohosudungthucte" ColumnName="cn_sohosudungthucte" />
+          <ScalarProperty Name="cn_giatritaisannguyengia" ColumnName="cn_giatritaisannguyengia" />
+          <ScalarProperty Name="cn_giatritaisangtcl" ColumnName="cn_giatritaisangtcl" />
+          <ScalarProperty Name="cn_tinhtrangtaisan" ColumnName="cn_tinhtrangtaisan" />
+          <ScalarProperty Name="cn_hinhthucxuly" ColumnName="cn_hinhthucxuly" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_dam">
+      <EntityTypeMapping TypeName="odaModel.iw_dam">
+        <MappingFragment StoreEntitySet="iw_dam">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="slg_cong" ColumnName="slg_cong" />
+          <ScalarProperty Name="congnghe_thicong" ColumnName="congnghe_thicong" />
+          <ScalarProperty Name="cap_congtrinh" ColumnName="cap_congtrinh" />
+          <ScalarProperty Name="hinhthuc_dap" ColumnName="hinhthuc_dap" />
+          <ScalarProperty Name="caotrinh_dinhdap" ColumnName="caotrinh_dinhdap" />
+          <ScalarProperty Name="caotrinh_tuongcs" ColumnName="caotrinh_tuongcs" />
+          <ScalarProperty Name="chieudai_dap" ColumnName="chieudai_dap" />
+          <ScalarProperty Name="chieucao_dap" ColumnName="chieucao_dap" />
+          <ScalarProperty Name="chieurong_dap" ColumnName="chieurong_dap" />
+          <ScalarProperty Name="heso_mai_thgluu" ColumnName="heso_mai_thgluu" />
+          <ScalarProperty Name="heso_mai_haluu" ColumnName="heso_mai_haluu" />
+          <ScalarProperty Name="vatlieu_mai_thgluu" ColumnName="vatlieu_mai_thgluu" />
+          <ScalarProperty Name="vatlieu_mai_haluu" ColumnName="vatlieu_mai_haluu" />
+          <ScalarProperty Name="htr_mai_thgluu" ColumnName="htr_mai_thgluu" />
+          <ScalarProperty Name="htr_thamnuoc_nang" ColumnName="htr_thamnuoc_nang" />
+          <ScalarProperty Name="htr_thamnuoc_nhe" ColumnName="htr_thamnuoc_nhe" />
+          <ScalarProperty Name="tbi_tieunuoc" ColumnName="tbi_tieunuoc" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="loaidap" ColumnName="loaidap" />
+          <ScalarProperty Name="vatlieu_dap" ColumnName="vatlieu_dap" />
+          <ScalarProperty Name="reservoir_id" ColumnName="reservoir_id" />
+          <ScalarProperty Name="sodapphu" ColumnName="sodapphu" />
+          <ScalarProperty Name="kienco" ColumnName="kienco" />
+          <ScalarProperty Name="chieucao_lonnhat" ColumnName="chieucao_lonnhat" />
+          <ScalarProperty Name="caotrinhco_thuongluu" ColumnName="caotrinhco_thuongluu" />
+          <ScalarProperty Name="chieurongco_thuongluu" ColumnName="chieurongco_thuongluu" />
+          <ScalarProperty Name="giacomai_thuongluu" ColumnName="giacomai_thuongluu" />
+          <ScalarProperty Name="caotrinhco_haluu" ColumnName="caotrinhco_haluu" />
+          <ScalarProperty Name="chieurongco_haluu" ColumnName="chieurongco_haluu" />
+          <ScalarProperty Name="giacomai_haluu" ColumnName="giacomai_haluu" />
+          <ScalarProperty Name="dongdachanmai" ColumnName="dongdachanmai" />
+          <ScalarProperty Name="caotrinh_dongda" ColumnName="caotrinh_dongda" />
+          <ScalarProperty Name="chieurong_dongda" ColumnName="chieurong_dongda" />
+          <ScalarProperty Name="hesomai_thgluu_haluu" ColumnName="hesomai_thgluu_haluu" />
+          <ScalarProperty Name="xulychongtham" ColumnName="xulychongtham" />
+          <ScalarProperty Name="dubaolu_id" ColumnName="dubaolu_id" />
+          <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+          <ScalarProperty Name="temp_id" ColumnName="temp_id" />
+          <ScalarProperty Name="donviquanly" ColumnName="donviquanly" />
+          <ScalarProperty Name="lakecode_tlvn" ColumnName="lakecode_tlvn" />
+          <ScalarProperty Name="damcode_tlvn" ColumnName="damcode_tlvn" />
+          <ScalarProperty Name="ketcaucongtrinh" ColumnName="ketcaucongtrinh" />
+          <ScalarProperty Name="caotrinhnguong" ColumnName="caotrinhnguong" />
+          <ScalarProperty Name="hientrang" ColumnName="hientrang" />
+          <ScalarProperty Name="tansuattieu" ColumnName="tansuattieu" />
+          <ScalarProperty Name="tansuattuoi" ColumnName="tansuattuoi" />
+          <ScalarProperty Name="tieuchuanthoatlu" ColumnName="tieuchuanthoatlu" />
+          <ScalarProperty Name="dienthoai" ColumnName="dienthoai" />
+          <ScalarProperty Name="quytrinhvanhanh" ColumnName="quytrinhvanhanh" />
+          <ScalarProperty Name="vatlieugiaco" ColumnName="vatlieugiaco" />
+          <ScalarProperty Name="nhiemvu" ColumnName="nhiemvu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_denchieusang">
+      <EntityTypeMapping TypeName="odaModel.iw_denchieusang">
+        <MappingFragment StoreEntitySet="iw_denchieusang">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="thuockenh" ColumnName="thuockenh" />
+          <ScalarProperty Name="thuocho" ColumnName="thuocho" />
+          <ScalarProperty Name="loaict" ColumnName="loaict" />
+          <ScalarProperty Name="loaiden" ColumnName="loaiden" />
+          <ScalarProperty Name="chieucao" ColumnName="chieucao" />
+          <ScalarProperty Name="loaigeom" ColumnName="loaigeom" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+          <ScalarProperty Name="loai" ColumnName="loai" />
+          <ScalarProperty Name="tenduong" ColumnName="tenduong" />
+          <ScalarProperty Name="dongngat" ColumnName="dongngat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_diemngap">
+      <EntityTypeMapping TypeName="odaModel.iw_diemngap">
+        <MappingFragment StoreEntitySet="iw_diemngap">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="thuockenh" ColumnName="thuockenh" />
+          <ScalarProperty Name="loaict" ColumnName="loaict" />
+          <ScalarProperty Name="kichthuoc1" ColumnName="kichthuoc1" />
+          <ScalarProperty Name="kichthuoc2" ColumnName="kichthuoc2" />
+          <ScalarProperty Name="h" ColumnName="h" />
+          <ScalarProperty Name="h1" ColumnName="h1" />
+          <ScalarProperty Name="h2" ColumnName="h2" />
+          <ScalarProperty Name="h3" ColumnName="h3" />
+          <ScalarProperty Name="h4" ColumnName="h4" />
+          <ScalarProperty Name="a1" ColumnName="a1" />
+          <ScalarProperty Name="a2" ColumnName="a2" />
+          <ScalarProperty Name="b" ColumnName="b" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+          <ScalarProperty Name="dientich" ColumnName="dientich" />
+          <ScalarProperty Name="chieusau" ColumnName="chieusau" />
+          <ScalarProperty Name="thoigian" ColumnName="thoigian" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_duongong">
+      <EntityTypeMapping TypeName="odaModel.iw_duongong">
+        <MappingFragment StoreEntitySet="iw_duongong">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="thuockenh" ColumnName="thuockenh" />
+          <ScalarProperty Name="thuocho" ColumnName="thuocho" />
+          <ScalarProperty Name="loaict" ColumnName="loaict" />
+          <ScalarProperty Name="loaihoga" ColumnName="loaihoga" />
+          <ScalarProperty Name="chieucao" ColumnName="chieucao" />
+          <ScalarProperty Name="loaigeom" ColumnName="loaigeom" />
+          <ScalarProperty Name="tenduong" ColumnName="tenduong" />
+          <ScalarProperty Name="vatlieu" ColumnName="vatlieu" />
+          <ScalarProperty Name="apsuat" ColumnName="apsuat" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_flood_spillway">
+      <EntityTypeMapping TypeName="odaModel.iw_flood_spillway">
+        <MappingFragment StoreEntitySet="iw_flood_spillway">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="hinhthuc_tran" ColumnName="hinhthuc_tran" />
+          <ScalarProperty Name="hinhthuc_tieunang" ColumnName="hinhthuc_tieunang" />
+          <ScalarProperty Name="hinhthuc_dongmo" ColumnName="hinhthuc_dongmo" />
+          <ScalarProperty Name="luulgxa_tke" ColumnName="luulgxa_tke" />
+          <ScalarProperty Name="luulgxa_ktra" ColumnName="luulgxa_ktra" />
+          <ScalarProperty Name="ct_dinhtran" ColumnName="ct_dinhtran" />
+          <ScalarProperty Name="ct_nguongtran" ColumnName="ct_nguongtran" />
+          <ScalarProperty Name="chieurong_tran" ColumnName="chieurong_tran" />
+          <ScalarProperty Name="cotnuoc_tran" ColumnName="cotnuoc_tran" />
+          <ScalarProperty Name="tuyen" ColumnName="tuyen" />
+          <ScalarProperty Name="domo_max" ColumnName="domo_max" />
+          <ScalarProperty Name="ketcau_tran" ColumnName="ketcau_tran" />
+          <ScalarProperty Name="hientrang" ColumnName="hientrang" />
+          <ScalarProperty Name="tran_hongnang" ColumnName="tran_hongnang" />
+          <ScalarProperty Name="tran_canmr" ColumnName="tran_canmr" />
+          <ScalarProperty Name="codangxa" ColumnName="codangxa" />
+          <ScalarProperty Name="luulg_xa" ColumnName="luulg_xa" />
+          <ScalarProperty Name="tbi_tieunang" ColumnName="tbi_tieunang" />
+          <ScalarProperty Name="nam_suachua" ColumnName="nam_suachua" />
+          <ScalarProperty Name="sokhoangtran" ColumnName="sokhoangtran" />
+          <ScalarProperty Name="berong_khoang" ColumnName="berong_khoang" />
+          <ScalarProperty Name="cotransuco" ColumnName="cotransuco" />
+          <ScalarProperty Name="lytrinh" ColumnName="lytrinh" />
+          <ScalarProperty Name="vatlieu_xaydung" ColumnName="vatlieu_xaydung" />
+          <ScalarProperty Name="vitri" ColumnName="vitri" />
+          <ScalarProperty Name="chieucao_tran" ColumnName="chieucao_tran" />
+          <ScalarProperty Name="cotnuoc_tke" ColumnName="cotnuoc_tke" />
+          <ScalarProperty Name="trangthai" ColumnName="trangthai" />
+          <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+          <ScalarProperty Name="reservoir_id" ColumnName="reservoir_id" />
+          <ScalarProperty Name="soluong_kichthuoc" ColumnName="soluong_kichthuoc" />
+          <ScalarProperty Name="caotrinhday_tieunang" ColumnName="caotrinhday_tieunang" />
+          <ScalarProperty Name="chieudai_tieunang" ColumnName="chieudai_tieunang" />
+          <ScalarProperty Name="chieurong_tieunang" ColumnName="chieurong_tieunang" />
+          <ScalarProperty Name="loaitran" ColumnName="loaitran" />
+          <ScalarProperty Name="giaidoan_thuchien_id" ColumnName="giaidoan_thuchien_id" />
+          <ScalarProperty Name="canal_id" ColumnName="canal_id" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="vatlieuxd" ColumnName="vatlieuxd" />
+          <ScalarProperty Name="chieudai" ColumnName="chieudai" />
+          <ScalarProperty Name="captran" ColumnName="captran" />
+          <ScalarProperty Name="dam_id" ColumnName="dam_id" />
+          <ScalarProperty Name="lakecode_tlvn" ColumnName="lakecode_tlvn" />
+          <ScalarProperty Name="matran_tlvn" ColumnName="matran_tlvn" />
+          <ScalarProperty Name="temp_id" ColumnName="temp_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_gieng">
+      <EntityTypeMapping TypeName="odaModel.iw_gieng">
+        <MappingFragment StoreEntitySet="iw_gieng">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="thuockenh" ColumnName="thuockenh" />
+          <ScalarProperty Name="loaict" ColumnName="loaict" />
+          <ScalarProperty Name="kichthuoc1" ColumnName="kichthuoc1" />
+          <ScalarProperty Name="kichthuoc2" ColumnName="kichthuoc2" />
+          <ScalarProperty Name="h" ColumnName="h" />
+          <ScalarProperty Name="h1" ColumnName="h1" />
+          <ScalarProperty Name="h2" ColumnName="h2" />
+          <ScalarProperty Name="h3" ColumnName="h3" />
+          <ScalarProperty Name="h4" ColumnName="h4" />
+          <ScalarProperty Name="a1" ColumnName="a1" />
+          <ScalarProperty Name="a2" ColumnName="a2" />
+          <ScalarProperty Name="b" ColumnName="b" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_hoga">
+      <EntityTypeMapping TypeName="odaModel.iw_hoga">
+        <MappingFragment StoreEntitySet="iw_hoga">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="thuockenh" ColumnName="thuockenh" />
+          <ScalarProperty Name="thuocho" ColumnName="thuocho" />
+          <ScalarProperty Name="loaict" ColumnName="loaict" />
+          <ScalarProperty Name="loaihoga" ColumnName="loaihoga" />
+          <ScalarProperty Name="chieucao" ColumnName="chieucao" />
+          <ScalarProperty Name="loaigeom" ColumnName="loaigeom" />
+          <ScalarProperty Name="gocngoatd1d2" ColumnName="gocngoatd1d2" />
+          <ScalarProperty Name="congvaod1" ColumnName="congvaod1" />
+          <ScalarProperty Name="congrad2" ColumnName="congrad2" />
+          <ScalarProperty Name="caodomatdat" ColumnName="caodomatdat" />
+          <ScalarProperty Name="caododaycong" ColumnName="caododaycong" />
+          <ScalarProperty Name="caododayga" ColumnName="caododayga" />
+          <ScalarProperty Name="chieucaoh1" ColumnName="chieucaoh1" />
+          <ScalarProperty Name="ketcau" ColumnName="ketcau" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+          <ScalarProperty Name="tenduong" ColumnName="tenduong" />
+          <ScalarProperty Name="thuoccong" ColumnName="thuoccong" />
+          <ScalarProperty Name="congvaod3" ColumnName="congvaod3" />
+          <ScalarProperty Name="ctu_r3_r5" ColumnName="ctu_r3_r5" />
+          <ScalarProperty Name="ctu_r3_r6" ColumnName="ctu_r3_r6" />
+          <ScalarProperty Name="caododay_e1" ColumnName="caododay_e1" />
+          <ScalarProperty Name="caododay_e2" ColumnName="caododay_e2" />
+          <ScalarProperty Name="caododay_e3" ColumnName="caododay_e3" />
+          <ScalarProperty Name="caododay_e4" ColumnName="caododay_e4" />
+          <ScalarProperty Name="caododay_e5" ColumnName="caododay_e5" />
+          <ScalarProperty Name="gocngoatd3d2" ColumnName="gocngoatd3d2" />
+          <ScalarProperty Name="gocngoatd4d2" ColumnName="gocngoatd4d2" />
+          <ScalarProperty Name="gocngoatd5d2" ColumnName="gocngoatd5d2" />
+          <ScalarProperty Name="duongkinhd1" ColumnName="duongkinhd1" />
+          <ScalarProperty Name="duongkinhd2" ColumnName="duongkinhd2" />
+          <ScalarProperty Name="duongkinhd3" ColumnName="duongkinhd3" />
+          <ScalarProperty Name="duongkinhd4" ColumnName="duongkinhd4" />
+          <ScalarProperty Name="kyhieu" ColumnName="kyhieu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_hotrongcay">
+      <EntityTypeMapping TypeName="odaModel.iw_hotrongcay">
+        <MappingFragment StoreEntitySet="iw_hotrongcay">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="thuockenh" ColumnName="thuockenh" />
+          <ScalarProperty Name="thuocho" ColumnName="thuocho" />
+          <ScalarProperty Name="loaict" ColumnName="loaict" />
+          <ScalarProperty Name="loaihoga" ColumnName="loaihoga" />
+          <ScalarProperty Name="chieucao" ColumnName="chieucao" />
+          <ScalarProperty Name="loaigeom" ColumnName="loaigeom" />
+          <ScalarProperty Name="tenduong" ColumnName="tenduong" />
+          <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+          <ScalarProperty Name="kichthuoc" ColumnName="kichthuoc" />
+          <ScalarProperty Name="vatlieu" ColumnName="vatlieu" />
+          <ScalarProperty Name="loaicay" ColumnName="loaicay" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_irrigation_sewer">
+      <EntityTypeMapping TypeName="odaModel.iw_irrigation_sewer">
+        <MappingFragment StoreEntitySet="iw_irrigation_sewer">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="dam_id" ColumnName="dam_id" />
+          <ScalarProperty Name="luulg_tke" ColumnName="luulg_tke" />
+          <ScalarProperty Name="luulg_tte" ColumnName="luulg_tte" />
+          <ScalarProperty Name="loaicong" ColumnName="loaicong" />
+          <ScalarProperty Name="ht_tieunang" ColumnName="ht_tieunang" />
+          <ScalarProperty Name="tbi_tieunang" ColumnName="tbi_tieunang" />
+          <ScalarProperty Name="ketcau" ColumnName="ketcau" />
+          <ScalarProperty Name="khaudien" ColumnName="khaudien" />
+          <ScalarProperty Name="kt_cuavao" ColumnName="kt_cuavao" />
+          <ScalarProperty Name="kt_cuara" ColumnName="kt_cuara" />
+          <ScalarProperty Name="chieudai" ColumnName="chieudai" />
+          <ScalarProperty Name="chedo_vanhanh" ColumnName="chedo_vanhanh" />
+          <ScalarProperty Name="socuacong" ColumnName="socuacong" />
+          <ScalarProperty Name="ct_daycong_thgluu" ColumnName="ct_daycong_thgluu" />
+          <ScalarProperty Name="ct_daycong_haluu" ColumnName="ct_daycong_haluu" />
+          <ScalarProperty Name="ct_nguongcong" ColumnName="ct_nguongcong" />
+          <ScalarProperty Name="vvh_thgluu" ColumnName="vvh_thgluu" />
+          <ScalarProperty Name="vvh_haluu" ColumnName="vvh_haluu" />
+          <ScalarProperty Name="kt_cuacong" ColumnName="kt_cuacong" />
+          <ScalarProperty Name="cong_hongnang" ColumnName="cong_hongnang" />
+          <ScalarProperty Name="cong_dangmo" ColumnName="cong_dangmo" />
+          <ScalarProperty Name="htdm_thuongluu" ColumnName="htdm_thuongluu" />
+          <ScalarProperty Name="hientrang" ColumnName="hientrang" />
+          <ScalarProperty Name="nam_hoanthanh" ColumnName="nam_hoanthanh" />
+          <ScalarProperty Name="nam_suachua" ColumnName="nam_suachua" />
+          <ScalarProperty Name="canal_id" ColumnName="canal_id" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="vitri" ColumnName="vitri" />
+          <ScalarProperty Name="dttuoi_tke" ColumnName="dttuoi_tke" />
+          <ScalarProperty Name="dttieu_tke" ColumnName="dttieu_tke" />
+          <ScalarProperty Name="dtnganman_tke" ColumnName="dtnganman_tke" />
+          <ScalarProperty Name="dttuoi_tte" ColumnName="dttuoi_tte" />
+          <ScalarProperty Name="dttieu_tte" ColumnName="dttieu_tte" />
+          <ScalarProperty Name="dtnganman_tte" ColumnName="dtnganman_tte" />
+          <ScalarProperty Name="reservoir_id" ColumnName="reservoir_id" />
+          <ScalarProperty Name="kichthuoc" ColumnName="kichthuoc" />
+          <ScalarProperty Name="hinhthuc" ColumnName="hinhthuc" />
+          <ScalarProperty Name="dam_uuid" ColumnName="dam_uuid" />
+          <ScalarProperty Name="capcong" ColumnName="capcong" />
+          <ScalarProperty Name="lytrinh" ColumnName="lytrinh" />
+          <ScalarProperty Name="chatlieu" ColumnName="chatlieu" />
+          <ScalarProperty Name="hinhdang_cong" ColumnName="hinhdang_cong" />
+          <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+          <ScalarProperty Name="donviquanly" ColumnName="donviquanly" />
+          <ScalarProperty Name="temp_id" ColumnName="temp_id" />
+          <ScalarProperty Name="thuockenh" ColumnName="thuockenh" />
+          <ScalarProperty Name="loaict" ColumnName="loaict" />
+          <ScalarProperty Name="thuocho" ColumnName="thuocho" />
+          <ScalarProperty Name="chieucao_daycuaxa" ColumnName="chieucao_daycuaxa" />
+          <ScalarProperty Name="chieucao_dinhke" ColumnName="chieucao_dinhke" />
+          <ScalarProperty Name="diemdau" ColumnName="diemdau" />
+          <ScalarProperty Name="diemcuoi" ColumnName="diemcuoi" />
+          <ScalarProperty Name="loaicongten" ColumnName="loaicongten" />
+          <ScalarProperty Name="thuocduong" ColumnName="thuocduong" />
+          <ScalarProperty Name="tenduong" ColumnName="tenduong" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+          <ScalarProperty Name="chieurong" ColumnName="chieurong" />
+          <ScalarProperty Name="chieucao" ColumnName="chieucao" />
+          <ScalarProperty Name="duongkinh" ColumnName="duongkinh" />
+          <ScalarProperty Name="vatlieu" ColumnName="vatlieu" />
+          <ScalarProperty Name="dosaucong" ColumnName="dosaucong" />
+          <ScalarProperty Name="loai_1a1" ColumnName="loai_1a1" />
+          <ScalarProperty Name="loai_1a2" ColumnName="loai_1a2" />
+          <ScalarProperty Name="loai_1b1" ColumnName="loai_1b1" />
+          <ScalarProperty Name="loai_1b2" ColumnName="loai_1b2" />
+          <ScalarProperty Name="tong" ColumnName="tong" />
+          <ScalarProperty Name="h_z2_z3" ColumnName="h_z2_z3" />
+          <ScalarProperty Name="htb_z0_z1" ColumnName="htb_z0_z1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_irrigation_works">
+      <EntityTypeMapping TypeName="odaModel.iw_irrigation_works">
+        <MappingFragment StoreEntitySet="iw_irrigation_works">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_nhamayxulynuocthai">
+      <EntityTypeMapping TypeName="odaModel.iw_nhamayxulynuocthai">
+        <MappingFragment StoreEntitySet="iw_nhamayxulynuocthai">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="thuockenh" ColumnName="thuockenh" />
+          <ScalarProperty Name="thuocho" ColumnName="thuocho" />
+          <ScalarProperty Name="loaict" ColumnName="loaict" />
+          <ScalarProperty Name="hientrang" ColumnName="hientrang" />
+          <ScalarProperty Name="congsuat" ColumnName="congsuat" />
+          <ScalarProperty Name="vitri" ColumnName="vitri" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_pump_station">
+      <EntityTypeMapping TypeName="odaModel.iw_pump_station">
+        <MappingFragment StoreEntitySet="iw_pump_station">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="congtongbom" ColumnName="congtongbom" />
+          <ScalarProperty Name="tongcongsuat" ColumnName="tongcongsuat" />
+          <ScalarProperty Name="somaybom" ColumnName="somaybom" />
+          <ScalarProperty Name="dttuoi_tke" ColumnName="dttuoi_tke" />
+          <ScalarProperty Name="dttuoi_tte" ColumnName="dttuoi_tte" />
+          <ScalarProperty Name="ct_mucnuoctk" ColumnName="ct_mucnuoctk" />
+          <ScalarProperty Name="ct_daybehut" ColumnName="ct_daybehut" />
+          <ScalarProperty Name="ct_mucnuocbx" ColumnName="ct_mucnuocbx" />
+          <ScalarProperty Name="ct_tamongxa" ColumnName="ct_tamongxa" />
+          <ScalarProperty Name="ct_thanhbx" ColumnName="ct_thanhbx" />
+          <ScalarProperty Name="ct_sanmay" ColumnName="ct_sanmay" />
+          <ScalarProperty Name="cotnuoc" ColumnName="cotnuoc" />
+          <ScalarProperty Name="tbi_dieukhien" ColumnName="tbi_dieukhien" />
+          <ScalarProperty Name="tietdien_duongday" ColumnName="tietdien_duongday" />
+          <ScalarProperty Name="chieudai_dgday" ColumnName="chieudai_dgday" />
+          <ScalarProperty Name="namxaydung" ColumnName="namxaydung" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="dtcapns_tke" ColumnName="dtcapns_tke" />
+          <ScalarProperty Name="dttieu_tte" ColumnName="dttieu_tte" />
+          <ScalarProperty Name="dtcapns_tte" ColumnName="dtcapns_tte" />
+          <ScalarProperty Name="dttieu_tke" ColumnName="dttieu_tke" />
+          <ScalarProperty Name="loai_trambom" ColumnName="loai_trambom" />
+          <ScalarProperty Name="congsuattk" ColumnName="congsuattk" />
+          <ScalarProperty Name="congsuattk_tieu" ColumnName="congsuattk_tieu" />
+          <ScalarProperty Name="reservoir_id" ColumnName="reservoir_id" />
+          <ScalarProperty Name="chieu_rong" ColumnName="chieu_rong" />
+          <ScalarProperty Name="chieu_cao" ColumnName="chieu_cao" />
+          <ScalarProperty Name="loaimay" ColumnName="loaimay" />
+          <ScalarProperty Name="mahieumay" ColumnName="mahieumay" />
+          <ScalarProperty Name="luuluong_motmay" ColumnName="luuluong_motmay" />
+          <ScalarProperty Name="ct_dongco" ColumnName="ct_dongco" />
+          <ScalarProperty Name="ct_mucnuocbh" ColumnName="ct_mucnuocbh" />
+          <ScalarProperty Name="chieudai_onghut" ColumnName="chieudai_onghut" />
+          <ScalarProperty Name="ct_tamonghut" ColumnName="ct_tamonghut" />
+          <ScalarProperty Name="dientich_behut" ColumnName="dientich_behut" />
+          <ScalarProperty Name="chieudai_ongxa" ColumnName="chieudai_ongxa" />
+          <ScalarProperty Name="dientich_bexa" ColumnName="dientich_bexa" />
+          <ScalarProperty Name="ly_trinh" ColumnName="ly_trinh" />
+          <ScalarProperty Name="clndk_kichthuoc" ColumnName="clndk_kichthuoc" />
+          <ScalarProperty Name="clndk_hientrang" ColumnName="clndk_hientrang" />
+          <ScalarProperty Name="hientrang" ColumnName="hientrang" />
+          <ScalarProperty Name="captrambom" ColumnName="captrambom" />
+          <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+          <ScalarProperty Name="temp_id" ColumnName="temp_id" />
+          <ScalarProperty Name="donviquanly" ColumnName="donviquanly" />
+          <ScalarProperty Name="quymo" ColumnName="quymo" />
+          <ScalarProperty Name="dientichtuoi" ColumnName="dientichtuoi" />
+          <ScalarProperty Name="dientichtieu" ColumnName="dientichtieu" />
+          <ScalarProperty Name="ketcau" ColumnName="ketcau" />
+          <ScalarProperty Name="dienthoai" ColumnName="dienthoai" />
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="mucnuocbexa" ColumnName="mucnuocbexa" />
+          <ScalarProperty Name="mucnuocbehut" ColumnName="mucnuocbehut" />
+          <ScalarProperty Name="khoangcachtim" ColumnName="khoangcachtim" />
+          <ScalarProperty Name="hieusuat" ColumnName="hieusuat" />
+          <ScalarProperty Name="ct_sansuachua" ColumnName="ct_sansuachua" />
+          <ScalarProperty Name="ct_bobehut" ColumnName="ct_bobehut" />
+          <ScalarProperty Name="chieudaibehut" ColumnName="chieudaibehut" />
+          <ScalarProperty Name="chieurongbehut" ColumnName="chieurongbehut" />
+          <ScalarProperty Name="ct_daybexa" ColumnName="ct_daybexa" />
+          <ScalarProperty Name="ct_bobexa" ColumnName="ct_bobexa" />
+          <ScalarProperty Name="chieudaibexa" ColumnName="chieudaibexa" />
+          <ScalarProperty Name="chieurongbexa" ColumnName="chieurongbexa" />
+          <ScalarProperty Name="ct_tuongbexa" ColumnName="ct_tuongbexa" />
+          <ScalarProperty Name="congapluc" ColumnName="congapluc" />
+          <ScalarProperty Name="luuluongtt" ColumnName="luuluongtt" />
+          <ScalarProperty Name="congsuattb" ColumnName="congsuattb" />
+          <ScalarProperty Name="vitri" ColumnName="vitri" />
+          <ScalarProperty Name="cotap" ColumnName="cotap" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_reservoir">
+      <EntityTypeMapping TypeName="odaModel.iw_reservoir">
+        <MappingFragment StoreEntitySet="iw_reservoir">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="capcongtrinh" ColumnName="capcongtrinh" />
+          <ScalarProperty Name="tansuatlu_tk_tuoi" ColumnName="tansuatlu_tk_tuoi" />
+          <ScalarProperty Name="tansuatlu_tk" ColumnName="tansuatlu_tk" />
+          <ScalarProperty Name="tansuatlu_kt" ColumnName="tansuatlu_kt" />
+          <ScalarProperty Name="dungtich_tongcong" ColumnName="dungtich_tongcong" />
+          <ScalarProperty Name="dungtich_mndbt" ColumnName="dungtich_mndbt" />
+          <ScalarProperty Name="dungtich_huuich" ColumnName="dungtich_huuich" />
+          <ScalarProperty Name="dungtich_chet" ColumnName="dungtich_chet" />
+          <ScalarProperty Name="mndbt" ColumnName="mndbt" />
+          <ScalarProperty Name="mnc" ColumnName="mnc" />
+          <ScalarProperty Name="mndgc" ColumnName="mndgc" />
+          <ScalarProperty Name="mnlkt" ColumnName="mnlkt" />
+          <ScalarProperty Name="mnltk" ColumnName="mnltk" />
+          <ScalarProperty Name="dungtich_phonglu" ColumnName="dungtich_phonglu" />
+          <ScalarProperty Name="tgtichnuoc_mndbt" ColumnName="tgtichnuoc_mndbt" />
+          <ScalarProperty Name="slg_dapchinh" ColumnName="slg_dapchinh" />
+          <ScalarProperty Name="slg_dapphu" ColumnName="slg_dapphu" />
+          <ScalarProperty Name="slg_tran" ColumnName="slg_tran" />
+          <ScalarProperty Name="slg_congxasau" ColumnName="slg_congxasau" />
+          <ScalarProperty Name="slg_tuynen" ColumnName="slg_tuynen" />
+          <ScalarProperty Name="slg_conglaynuoc" ColumnName="slg_conglaynuoc" />
+          <ScalarProperty Name="slg_authuyen" ColumnName="slg_authuyen" />
+          <ScalarProperty Name="f_luuvuc" ColumnName="f_luuvuc" />
+          <ScalarProperty Name="luulg_dinhlu_tk" ColumnName="luulg_dinhlu_tk" />
+          <ScalarProperty Name="luulg_dinhlu_kt" ColumnName="luulg_dinhlu_kt" />
+          <ScalarProperty Name="nhiemvu" ColumnName="nhiemvu" />
+          <ScalarProperty Name="dtra_htho" ColumnName="dtra_htho" />
+          <ScalarProperty Name="dtra_nam" ColumnName="dtra_nam" />
+          <ScalarProperty Name="dtra_mota" ColumnName="dtra_mota" />
+          <ScalarProperty Name="nam_hoanthanh" ColumnName="nam_hoanthanh" />
+          <ScalarProperty Name="nam_suachua" ColumnName="nam_suachua" />
+          <ScalarProperty Name="dang_suachua" ColumnName="dang_suachua" />
+          <ScalarProperty Name="quytrinh_vanhanh" ColumnName="quytrinh_vanhanh" />
+          <ScalarProperty Name="pp_baove" ColumnName="pp_baove" />
+          <ScalarProperty Name="cuavan" ColumnName="cuavan" />
+          <ScalarProperty Name="xungyeu" ColumnName="xungyeu" />
+          <ScalarProperty Name="quantrong" ColumnName="quantrong" />
+          <ScalarProperty Name="dactinhho" ColumnName="dactinhho" />
+          <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+          <ScalarProperty Name="f_tru" ColumnName="f_tru" />
+          <ScalarProperty Name="f_tuoi" ColumnName="f_tuoi" />
+          <ScalarProperty Name="slg_trambom" ColumnName="slg_trambom" />
+          <ScalarProperty Name="slg_kenh" ColumnName="slg_kenh" />
+          <ScalarProperty Name="slg_caumang" ColumnName="slg_caumang" />
+          <ScalarProperty Name="slg_xiphong" ColumnName="slg_xiphong" />
+          <ScalarProperty Name="slg_cau" ColumnName="slg_cau" />
+          <ScalarProperty Name="slg_tramdomua" ColumnName="slg_tramdomua" />
+          <ScalarProperty Name="slg_tramdomucnuoc" ColumnName="slg_tramdomucnuoc" />
+          <ScalarProperty Name="slg_tramkttv" ColumnName="slg_tramkttv" />
+          <ScalarProperty Name="lakecode_tlvn" ColumnName="lakecode_tlvn" />
+          <ScalarProperty Name="ishothuydien" ColumnName="ishothuydien" />
+          <ScalarProperty Name="deleted_status" ColumnName="deleted_status" />
+          <ScalarProperty Name="kiemdinh_antoandap" ColumnName="kiemdinh_antoandap" />
+          <ScalarProperty Name="trantudo" ColumnName="trantudo" />
+          <ScalarProperty Name="ketcaudap" ColumnName="ketcaudap" />
+          <ScalarProperty Name="congtacquanly" ColumnName="congtacquanly" />
+          <ScalarProperty Name="holientinh" ColumnName="holientinh" />
+          <ScalarProperty Name="geomid" ColumnName="geomid" />
+          <ScalarProperty Name="nghidinhref" ColumnName="nghidinhref" />
+          <ScalarProperty Name="loaihoref" ColumnName="loaihoref" />
+          <ScalarProperty Name="dubaolulut_id" ColumnName="dubaolulut_id" />
+          <ScalarProperty Name="tgmuakiettu" ColumnName="tgmuakiettu" />
+          <ScalarProperty Name="tgmuakietden" ColumnName="tgmuakietden" />
+          <ScalarProperty Name="tgmualutu" ColumnName="tgmualutu" />
+          <ScalarProperty Name="tgmualuden" ColumnName="tgmualuden" />
+          <ScalarProperty Name="mncaonhattruoclu" ColumnName="mncaonhattruoclu" />
+          <ScalarProperty Name="mucnuocdonlu" ColumnName="mucnuocdonlu" />
+          <ScalarProperty Name="duongphongphahoai" ColumnName="duongphongphahoai" />
+          <ScalarProperty Name="duonghanche" ColumnName="duonghanche" />
+          <ScalarProperty Name="thoigiantichnuoc" ColumnName="thoigiantichnuoc" />
+          <ScalarProperty Name="luuluongxatoithieu" ColumnName="luuluongxatoithieu" />
+          <ScalarProperty Name="tansuatlu_tk_dandongthicong" ColumnName="tansuatlu_tk_dandongthicong" />
+          <ScalarProperty Name="tansuatlu_tk_thuysan" ColumnName="tansuatlu_tk_thuysan" />
+          <ScalarProperty Name="tansuatlu_tk_sinhhoat" ColumnName="tansuatlu_tk_sinhhoat" />
+          <ScalarProperty Name="tansuatlu_tk_congnghiep" ColumnName="tansuatlu_tk_congnghiep" />
+          <ScalarProperty Name="tansuatlu_tk_moitruong" ColumnName="tansuatlu_tk_moitruong" />
+          <ScalarProperty Name="lat" ColumnName="lat" />
+          <ScalarProperty Name="lon" ColumnName="lon" />
+          <ScalarProperty Name="ma_anhxa" ColumnName="ma_anhxa" />
+          <ScalarProperty Name="nguon_anhxa" ColumnName="nguon_anhxa" />
+          <ScalarProperty Name="mnlvkt" ColumnName="mnlvkt" />
+          <ScalarProperty Name="mucboilang" ColumnName="mucboilang" />
+          <ScalarProperty Name="dungtich_boilang" ColumnName="dungtich_boilang" />
+          <ScalarProperty Name="dientichmatho_mndbt" ColumnName="dientichmatho_mndbt" />
+          <ScalarProperty Name="dientichmatho_mnltk" ColumnName="dientichmatho_mnltk" />
+          <ScalarProperty Name="dientichmatho_mnlkt" ColumnName="dientichmatho_mnlkt" />
+          <ScalarProperty Name="chedolamviec" ColumnName="chedolamviec" />
+          <ScalarProperty Name="dientich_luuvuc_tuyendap" ColumnName="dientich_luuvuc_tuyendap" />
+          <ScalarProperty Name="luuluong_binhquannam" ColumnName="luuluong_binhquannam" />
+          <ScalarProperty Name="luuluong_dinhlu_10" ColumnName="luuluong_dinhlu_10" />
+          <ScalarProperty Name="luuluong_dinhlu_05" ColumnName="luuluong_dinhlu_05" />
+          <ScalarProperty Name="luuluong_dinhlu_01" ColumnName="luuluong_dinhlu_01" />
+          <ScalarProperty Name="luuluong_dinhlu_002" ColumnName="luuluong_dinhlu_002" />
+          <ScalarProperty Name="tongluonglu_10" ColumnName="tongluonglu_10" />
+          <ScalarProperty Name="tongluonglu_05" ColumnName="tongluonglu_05" />
+          <ScalarProperty Name="tongluonglu_01" ColumnName="tongluonglu_01" />
+          <ScalarProperty Name="tongluonglu_002" ColumnName="tongluonglu_002" />
+          <ScalarProperty Name="thuydien_hinhthuc" ColumnName="thuydien_hinhthuc" />
+          <ScalarProperty Name="thuydien_congsuat" ColumnName="thuydien_congsuat" />
+          <ScalarProperty Name="thuydien_soto" ColumnName="thuydien_soto" />
+          <ScalarProperty Name="thuydien_chedo_lamviec" ColumnName="thuydien_chedo_lamviec" />
+          <ScalarProperty Name="congsuatlapmay" ColumnName="congsuatlapmay" />
+          <ScalarProperty Name="dungtich_mnltk" ColumnName="dungtich_mnltk" />
+          <ScalarProperty Name="dungtich_mnlkt" ColumnName="dungtich_mnlkt" />
+          <ScalarProperty Name="cogantram" ColumnName="cogantram" />
+          <ScalarProperty Name="codieutietlienho" ColumnName="codieutietlienho" />
+          <ScalarProperty Name="mamohinhmike11" ColumnName="mamohinhmike11" />
+          <ScalarProperty Name="immidiate_show" ColumnName="immidiate_show" />
+          <ScalarProperty Name="baocao_hientrangatd" ColumnName="baocao_hientrangatd" />
+          <ScalarProperty Name="kiemtra_cttruoclu" ColumnName="kiemtra_cttruoclu" />
+          <ScalarProperty Name="phuongan_pclb" ColumnName="phuongan_pclb" />
+          <ScalarProperty Name="phuongan_pcll" ColumnName="phuongan_pcll" />
+          <ScalarProperty Name="kinhphi_nangcapsuachua" ColumnName="kinhphi_nangcapsuachua" />
+          <ScalarProperty Name="hientrang_congtrinh" ColumnName="hientrang_congtrinh" />
+          <ScalarProperty Name="isdapdang" ColumnName="isdapdang" />
+          <ScalarProperty Name="ishofortctl" ColumnName="ishofortctl" />
+          <ScalarProperty Name="thoigiancapnhat" ColumnName="thoigiancapnhat" />
+          <ScalarProperty Name="tong_luonglu_tk" ColumnName="tong_luonglu_tk" />
+          <ScalarProperty Name="tong_luonglu_kt" ColumnName="tong_luonglu_kt" />
+          <ScalarProperty Name="isdubaolu" ColumnName="isdubaolu" />
+          <ScalarProperty Name="luuvucho_id" ColumnName="luuvucho_id" />
+          <ScalarProperty Name="dubaongapluthadu_id" ColumnName="dubaongapluthadu_id" />
+          <ScalarProperty Name="phanmemquanly_link" ColumnName="phanmemquanly_link" />
+          <ScalarProperty Name="vanhanhcoihu_id" ColumnName="vanhanhcoihu_id" />
+          <ScalarProperty Name="donviquanly" ColumnName="donviquanly" />
+          <ScalarProperty Name="isshow_fulldata_quantrac" ColumnName="isshow_fulldata_quantrac" />
+          <ScalarProperty Name="temp_id" ColumnName="temp_id" />
+          <ScalarProperty Name="ismoinhattrongngay" ColumnName="ismoinhattrongngay" />
+          <ScalarProperty Name="isdubaodaihan" ColumnName="isdubaodaihan" />
+          <ScalarProperty Name="tansuat_dambaotuoi" ColumnName="tansuat_dambaotuoi" />
+          <ScalarProperty Name="matke_ketcau" ColumnName="matke_ketcau" />
+          <ScalarProperty Name="duongho" ColumnName="duongho" />
+          <ScalarProperty Name="dientich" ColumnName="dientich" />
+          <ScalarProperty Name="dientichmatnuoc" ColumnName="dientichmatnuoc" />
+          <ScalarProperty Name="chieucaomatho" ColumnName="chieucaomatho" />
+          <ScalarProperty Name="chieucaodayho" ColumnName="chieucaodayho" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_reservoir_stations">
+      <EntityTypeMapping TypeName="odaModel.iw_reservoir_stations">
+        <MappingFragment StoreEntitySet="iw_reservoir_stations">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="reservoir_id" ColumnName="reservoir_id" />
+          <ScalarProperty Name="stations_id" ColumnName="stations_id" />
+          <ScalarProperty Name="trongso" ColumnName="trongso" />
+          <ScalarProperty Name="istramhadu" ColumnName="istramhadu" />
+          <ScalarProperty Name="stt" ColumnName="stt" />
+          <ScalarProperty Name="bangdulieu" ColumnName="bangdulieu" />
+          <ScalarProperty Name="dbl_tramanhxa" ColumnName="dbl_tramanhxa" />
+          <ScalarProperty Name="istramdomua" ColumnName="istramdomua" />
+          <ScalarProperty Name="isdubaolu" ColumnName="isdubaolu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_thongsoquantrac">
+      <EntityTypeMapping TypeName="odaModel.iw_thongsoquantrac">
+        <MappingFragment StoreEntitySet="iw_thongsoquantrac">
+          <ScalarProperty Name="tskt_id" ColumnName="tskt_id" />
+          <ScalarProperty Name="tskt_command" ColumnName="tskt_command" />
+          <ScalarProperty Name="tskt_ten" ColumnName="tskt_ten" />
+          <ScalarProperty Name="tskt_stt" ColumnName="tskt_stt" />
+          <ScalarProperty Name="tskt_noisuy_id" ColumnName="tskt_noisuy_id" />
+          <ScalarProperty Name="tskt_deletedstatus" ColumnName="tskt_deletedstatus" />
+          <ScalarProperty Name="tskt_maloaithongso" ColumnName="tskt_maloaithongso" />
+          <ScalarProperty Name="tskt_noisuy_func" ColumnName="tskt_noisuy_func" />
+          <ScalarProperty Name="tskt_nguong_min" ColumnName="tskt_nguong_min" />
+          <ScalarProperty Name="tskt_nguong_max" ColumnName="tskt_nguong_max" />
+          <ScalarProperty Name="works_id" ColumnName="works_id" />
+          <ScalarProperty Name="tskt_thongso_scada" ColumnName="tskt_thongso_scada" />
+          <ScalarProperty Name="tskt_scada_id" ColumnName="tskt_scada_id" />
+          <ScalarProperty Name="tskt_unit" ColumnName="tskt_unit" />
+          <ScalarProperty Name="tskt_nhaplieuthucong" ColumnName="tskt_nhaplieuthucong" />
+          <ScalarProperty Name="tskt_giatrithietke" ColumnName="tskt_giatrithietke" />
+          <ScalarProperty Name="tskt_tuyenquantrac_ref" ColumnName="tskt_tuyenquantrac_ref" />
+          <ScalarProperty Name="tskt_isblock" ColumnName="tskt_isblock" />
+          <ScalarProperty Name="is_antoanhochua" ColumnName="is_antoanhochua" />
+          <ScalarProperty Name="is_hethongtuoi" ColumnName="is_hethongtuoi" />
+          <ScalarProperty Name="is_qlxdct" ColumnName="is_qlxdct" />
+          <ScalarProperty Name="tskt_key" ColumnName="tskt_key" />
+          <ScalarProperty Name="tskt_dateblock" ColumnName="tskt_dateblock" />
+          <ScalarProperty Name="tskt_userblock" ColumnName="tskt_userblock" />
+          <ScalarProperty Name="tskt_noteblock" ColumnName="tskt_noteblock" />
+          <ScalarProperty Name="dubaolu_stt" ColumnName="dubaolu_stt" />
+          <ScalarProperty Name="func_tinhxuoi" ColumnName="func_tinhxuoi" />
+          <ScalarProperty Name="func_tinhnguoc" ColumnName="func_tinhnguoc" />
+          <ScalarProperty Name="func_tskt_ketqua" ColumnName="func_tskt_ketqua" />
+          <ScalarProperty Name="func_tskt_input" ColumnName="func_tskt_input" />
+          <ScalarProperty Name="cotanhxa" ColumnName="cotanhxa" />
+          <ScalarProperty Name="nguon_dulieu" ColumnName="nguon_dulieu" />
+          <ScalarProperty Name="ma_dulieu" ColumnName="ma_dulieu" />
+          <ScalarProperty Name="issum" ColumnName="issum" />
+          <ScalarProperty Name="giatrigioihan" ColumnName="giatrigioihan" />
+          <ScalarProperty Name="giatrigioihannen" ColumnName="giatrigioihannen" />
+          <ScalarProperty Name="giatrigioihankeo" ColumnName="giatrigioihankeo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_timduong">
+      <EntityTypeMapping TypeName="odaModel.iw_timduong">
+        <MappingFragment StoreEntitySet="iw_timduong">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="thuockenh" ColumnName="thuockenh" />
+          <ScalarProperty Name="loaict" ColumnName="loaict" />
+          <ScalarProperty Name="chieudai" ColumnName="chieudai" />
+          <ScalarProperty Name="diemdau" ColumnName="diemdau" />
+          <ScalarProperty Name="diemcuoi" ColumnName="diemcuoi" />
+          <ScalarProperty Name="hientrang" ColumnName="hientrang" />
+          <ScalarProperty Name="chieurong" ColumnName="chieurong" />
+          <ScalarProperty Name="dientich" ColumnName="dientich" />
+          <ScalarProperty Name="khoiluongd" ColumnName="khoiluongd" />
+          <ScalarProperty Name="kl_dapcat" ColumnName="kl_dapcat" />
+          <ScalarProperty Name="kl_dapdat" ColumnName="kl_dapdat" />
+          <ScalarProperty Name="dt_cayxoi" ColumnName="dt_cayxoi" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_trucuuhoa">
+      <EntityTypeMapping TypeName="odaModel.iw_trucuuhoa">
+        <MappingFragment StoreEntitySet="iw_trucuuhoa">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="thuockenh" ColumnName="thuockenh" />
+          <ScalarProperty Name="thuocho" ColumnName="thuocho" />
+          <ScalarProperty Name="loaict" ColumnName="loaict" />
+          <ScalarProperty Name="loaihoga" ColumnName="loaihoga" />
+          <ScalarProperty Name="chieucao" ColumnName="chieucao" />
+          <ScalarProperty Name="loaigeom" ColumnName="loaigeom" />
+          <ScalarProperty Name="gocngoat" ColumnName="gocngoat" />
+          <ScalarProperty Name="congvao" ColumnName="congvao" />
+          <ScalarProperty Name="congra" ColumnName="congra" />
+          <ScalarProperty Name="caodomatdat" ColumnName="caodomatdat" />
+          <ScalarProperty Name="caododaycong" ColumnName="caododaycong" />
+          <ScalarProperty Name="caododayga" ColumnName="caododayga" />
+          <ScalarProperty Name="chieucaoh1" ColumnName="chieucaoh1" />
+          <ScalarProperty Name="ketcau" ColumnName="ketcau" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+          <ScalarProperty Name="tenduong" ColumnName="tenduong" />
+          <ScalarProperty Name="kichthuoc" ColumnName="kichthuoc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iw_vuotnoi">
+      <EntityTypeMapping TypeName="odaModel.iw_vuotnoi">
+        <MappingFragment StoreEntitySet="iw_vuotnoi">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="xa_id" ColumnName="xa_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="httn_id" ColumnName="httn_id" />
+          <ScalarProperty Name="loaict_id" ColumnName="loaict_id" />
+          <ScalarProperty Name="dvql_id" ColumnName="dvql_id" />
+          <ScalarProperty Name="luuvucsong_id" ColumnName="luuvucsong_id" />
+          <ScalarProperty Name="nguon_goc" ColumnName="nguon_goc" />
+          <ScalarProperty Name="donvi_tinh" ColumnName="donvi_tinh" />
+          <ScalarProperty Name="loai_taisan_id" ColumnName="loai_taisan_id" />
+          <ScalarProperty Name="nam_xaydung" ColumnName="nam_xaydung" />
+          <ScalarProperty Name="nam_khaithac" ColumnName="nam_khaithac" />
+          <ScalarProperty Name="nam_bangiao" ColumnName="nam_bangiao" />
+          <ScalarProperty Name="dientich_dat" ColumnName="dientich_dat" />
+          <ScalarProperty Name="dientich_san" ColumnName="dientich_san" />
+          <ScalarProperty Name="nguyen_gia" ColumnName="nguyen_gia" />
+          <ScalarProperty Name="tyle_haomon" ColumnName="tyle_haomon" />
+          <ScalarProperty Name="giatri_conlai" ColumnName="giatri_conlai" />
+          <ScalarProperty Name="tinhtrang_taisan" ColumnName="tinhtrang_taisan" />
+          <ScalarProperty Name="song_id" ColumnName="song_id" />
+          <ScalarProperty Name="ma_qhns" ColumnName="ma_qhns" />
+          <ScalarProperty Name="type_nguyengia" ColumnName="type_nguyengia" />
+          <ScalarProperty Name="isdangxaydung" ColumnName="isdangxaydung" />
+          <ScalarProperty Name="gtcanhbao_mnchancongtrinh" ColumnName="gtcanhbao_mnchancongtrinh" />
+          <ScalarProperty Name="httn_config" ColumnName="httn_config" />
+          <ScalarProperty Name="nangluc_lua" ColumnName="nangluc_lua" />
+          <ScalarProperty Name="nangluc_raumau" ColumnName="nangluc_raumau" />
+          <ScalarProperty Name="nangluc_cndaingay" ColumnName="nangluc_cndaingay" />
+          <ScalarProperty Name="nangluc_thuysan" ColumnName="nangluc_thuysan" />
+          <ScalarProperty Name="kinhdo" ColumnName="kinhdo" />
+          <ScalarProperty Name="vido" ColumnName="vido" />
+          <ScalarProperty Name="duan_ref" ColumnName="duan_ref" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="thuockenh" ColumnName="thuockenh" />
+          <ScalarProperty Name="loaict" ColumnName="loaict" />
+          <ScalarProperty Name="tenduong" ColumnName="tenduong" />
+          <ScalarProperty Name="r" ColumnName="r" />
+          <ScalarProperty Name="t" ColumnName="t" />
+          <ScalarProperty Name="p" ColumnName="p" />
+          <ScalarProperty Name="k" ColumnName="k" />
+          <ScalarProperty Name="sq" ColumnName="sq" />
+          <ScalarProperty Name="b2" ColumnName="b2" />
+          <ScalarProperty Name="bovia" ColumnName="bovia" />
+          <ScalarProperty Name="dientichmorong" ColumnName="dientichmorong" />
+          <ScalarProperty Name="dangnutgiao" ColumnName="dangnutgiao" />
+          <ScalarProperty Name="bi" ColumnName="bi" />
+          <ScalarProperty Name="goithau" ColumnName="goithau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="khudancu3857">
+      <EntityTypeMapping TypeName="odaModel.khudancu3857">
+        <MappingFragment StoreEntitySet="khudancu3857">
+          <ScalarProperty Name="gid" ColumnName="gid" />
+          <ScalarProperty Name="objectid" ColumnName="objectid" />
+          <ScalarProperty Name="manhandang" ColumnName="manhandang" />
+          <ScalarProperty Name="ngaythunha" ColumnName="ngaythunha" />
+          <ScalarProperty Name="ngaycapnha" ColumnName="ngaycapnha" />
+          <ScalarProperty Name="madoituong" ColumnName="madoituong" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="loaiphubem" ColumnName="loaiphubem" />
+          <ScalarProperty Name="shape_leng" ColumnName="shape_leng" />
+          <ScalarProperty Name="shape_area" ColumnName="shape_area" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="monitoring_data">
+      <EntityTypeMapping TypeName="odaModel.monitoring_data">
+        <MappingFragment StoreEntitySet="monitoring_data">
+          <ScalarProperty Name="data_id" ColumnName="data_id" />
+          <ScalarProperty Name="tskt_id" ColumnName="tskt_id" />
+          <ScalarProperty Name="data_thoigian" ColumnName="data_thoigian" />
+          <ScalarProperty Name="data_thoigiancapnhat" ColumnName="data_thoigiancapnhat" />
+          <ScalarProperty Name="data_giatri_sothuc" ColumnName="data_giatri_sothuc" />
+          <ScalarProperty Name="data_giatri_songuyen" ColumnName="data_giatri_songuyen" />
+          <ScalarProperty Name="data_giatri_chuoi" ColumnName="data_giatri_chuoi" />
+          <ScalarProperty Name="data_canhbao" ColumnName="data_canhbao" />
+          <ScalarProperty Name="data_seesaw" ColumnName="data_seesaw" />
+          <ScalarProperty Name="config_warning_id" ColumnName="config_warning_id" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="data_istonghop" ColumnName="data_istonghop" />
+          <ScalarProperty Name="data_nguonsolieu" ColumnName="data_nguonsolieu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sys_function_role">
+      <EntityTypeMapping TypeName="odaModel.sys_function_role">
+        <MappingFragment StoreEntitySet="sys_function_role">
+          <ScalarProperty Name="fr_id" ColumnName="fr_id" />
+          <ScalarProperty Name="fr_fnid" ColumnName="fr_fnid" />
+          <ScalarProperty Name="fr_roleid" ColumnName="fr_roleid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sys_role">
+      <EntityTypeMapping TypeName="odaModel.sys_role">
+        <MappingFragment StoreEntitySet="sys_role">
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+          <ScalarProperty Name="role_cq_id" ColumnName="role_cq_id" />
+          <ScalarProperty Name="role_ten" ColumnName="role_ten" />
+          <ScalarProperty Name="role_stt" ColumnName="role_stt" />
+          <ScalarProperty Name="role_nguoitao" ColumnName="role_nguoitao" />
+          <ScalarProperty Name="role_ma" ColumnName="role_ma" />
+          <ScalarProperty Name="role_type" ColumnName="role_type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sys_thongso_kythuat">
+      <EntityTypeMapping TypeName="odaModel.sys_thongso_kythuat">
+        <MappingFragment StoreEntitySet="sys_thongso_kythuat">
+          <ScalarProperty Name="ts_id" ColumnName="ts_id" />
+          <ScalarProperty Name="ts_name" ColumnName="ts_name" />
+          <ScalarProperty Name="ts_form" ColumnName="ts_form" />
+          <ScalarProperty Name="ts_parentid" ColumnName="ts_parentid" />
+          <ScalarProperty Name="ts_map_table" ColumnName="ts_map_table" />
+          <ScalarProperty Name="ts_map_column" ColumnName="ts_map_column" />
+          <ScalarProperty Name="ts_field_table" ColumnName="ts_field_table" />
+          <ScalarProperty Name="ts_field_id" ColumnName="ts_field_id" />
+          <ScalarProperty Name="ts_field_name" ColumnName="ts_field_name" />
+          <ScalarProperty Name="ts_field_where" ColumnName="ts_field_where" />
+          <ScalarProperty Name="ts_field_order" ColumnName="ts_field_order" />
+          <ScalarProperty Name="ts_orderby" ColumnName="ts_orderby" />
+          <ScalarProperty Name="ts_type" ColumnName="ts_type" />
+          <ScalarProperty Name="ts_data_type" ColumnName="ts_data_type" />
+          <ScalarProperty Name="ts_unit" ColumnName="ts_unit" />
+          <ScalarProperty Name="ts_default" ColumnName="ts_default" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="last_modified_at" ColumnName="last_modified_at" />
+          <ScalarProperty Name="last_modified_by" ColumnName="last_modified_by" />
+          <ScalarProperty Name="deleted_status" ColumnName="deleted_status" />
+          <ScalarProperty Name="ts_hethong" ColumnName="ts_hethong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sys_thongso_kythuat_detail">
+      <EntityTypeMapping TypeName="odaModel.sys_thongso_kythuat_detail">
+        <MappingFragment StoreEntitySet="sys_thongso_kythuat_detail">
+          <ScalarProperty Name="tsdt_id" ColumnName="tsdt_id" />
+          <ScalarProperty Name="tsdt_ts_id" ColumnName="tsdt_ts_id" />
+          <ScalarProperty Name="tsdt_mahieu" ColumnName="tsdt_mahieu" />
+          <ScalarProperty Name="tsdt_value" ColumnName="tsdt_value" />
+          <ScalarProperty Name="tsdt_display" ColumnName="tsdt_display" />
+          <ScalarProperty Name="tsdt_orderby" ColumnName="tsdt_orderby" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="last_modified_at" ColumnName="last_modified_at" />
+          <ScalarProperty Name="last_modified_by" ColumnName="last_modified_by" />
+          <ScalarProperty Name="deleted_status" ColumnName="deleted_status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sys_user_ho">
+      <EntityTypeMapping TypeName="odaModel.sys_user_ho">
+        <MappingFragment StoreEntitySet="sys_user_ho">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ho_id" ColumnName="ho_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="ho_uuid" ColumnName="ho_uuid" />
+          <ScalarProperty Name="ho_stt" ColumnName="ho_stt" />
+          <ScalarProperty Name="ho_hienthi" ColumnName="ho_hienthi" />
+          <ScalarProperty Name="loai_congtrinh" ColumnName="loai_congtrinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sys_user_httn">
+      <EntityTypeMapping TypeName="odaModel.sys_user_httn">
+        <MappingFragment StoreEntitySet="sys_user_httn">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="httn_uuid" ColumnName="httn_uuid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_danhmuc_duan">
+      <EntityTypeMapping TypeName="odaModel.tbl_danhmuc_duan">
+        <MappingFragment StoreEntitySet="tbl_danhmuc_duan">
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+          <ScalarProperty Name="hethong_ref" ColumnName="hethong_ref" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_danhmuc_hethong">
+      <EntityTypeMapping TypeName="odaModel.tbl_danhmuc_hethong">
+        <MappingFragment StoreEntitySet="tbl_danhmuc_hethong">
+          <ScalarProperty Name="mahieu" ColumnName="mahieu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_duytubaoduong">
+      <EntityTypeMapping TypeName="odaModel.tbl_duytubaoduong">
+        <MappingFragment StoreEntitySet="tbl_duytubaoduong">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ct_uuid" ColumnName="ct_uuid" />
+          <ScalarProperty Name="kyhieu" ColumnName="kyhieu" />
+          <ScalarProperty Name="phanloairef" ColumnName="phanloairef" />
+          <ScalarProperty Name="loaicongtrinh" ColumnName="loaicongtrinh" />
+          <ScalarProperty Name="tinh_id" ColumnName="tinh_id" />
+          <ScalarProperty Name="huyen_id" ColumnName="huyen_id" />
+          <ScalarProperty Name="diadiem" ColumnName="diadiem" />
+          <ScalarProperty Name="tongchieudai" ColumnName="tongchieudai" />
+          <ScalarProperty Name="giaiphapkythuat" ColumnName="giaiphapkythuat" />
+          <ScalarProperty Name="vatlieuxaydung" ColumnName="vatlieuxaydung" />
+          <ScalarProperty Name="kinhphi" ColumnName="kinhphi" />
+          <ScalarProperty Name="namkehoach" ColumnName="namkehoach" />
+          <ScalarProperty Name="namthuchien" ColumnName="namthuchien" />
+          <ScalarProperty Name="namhoanthanh" ColumnName="namhoanthanh" />
+          <ScalarProperty Name="nguon" ColumnName="nguon" />
+          <ScalarProperty Name="duyet" ColumnName="duyet" />
+          <ScalarProperty Name="soqd" ColumnName="soqd" />
+          <ScalarProperty Name="ngayqd" ColumnName="ngayqd" />
+          <ScalarProperty Name="anhtruoc" ColumnName="anhtruoc" />
+          <ScalarProperty Name="anhsau" ColumnName="anhsau" />
+          <ScalarProperty Name="createdby" ColumnName="createdby" />
+          <ScalarProperty Name="createdat" ColumnName="createdat" />
+          <ScalarProperty Name="lastmodifiedby" ColumnName="lastmodifiedby" />
+          <ScalarProperty Name="lastmodifiedat" ColumnName="lastmodifiedat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_tutailieu_files">
+      <EntityTypeMapping TypeName="odaModel.tbl_tutailieu_files">
+        <MappingFragment StoreEntitySet="tbl_tutailieu_files">
+          <ScalarProperty Name="ttl_tree_id" ColumnName="ttl_tree_id" />
+          <ScalarProperty Name="ttl_tree_ten" ColumnName="ttl_tree_ten" />
+          <ScalarProperty Name="ttl_tree_user_creator" ColumnName="ttl_tree_user_creator" />
+          <ScalarProperty Name="ttl_tree_date_created" ColumnName="ttl_tree_date_created" />
+          <ScalarProperty Name="ttl_tree_user_modifier" ColumnName="ttl_tree_user_modifier" />
+          <ScalarProperty Name="ttl_tree_date_modified" ColumnName="ttl_tree_date_modified" />
+          <ScalarProperty Name="ttl_tree_form" ColumnName="ttl_tree_form" />
+          <ScalarProperty Name="ttl_tree_type" ColumnName="ttl_tree_type" />
+          <ScalarProperty Name="ttl_tree_tochucid" ColumnName="ttl_tree_tochucid" />
+          <ScalarProperty Name="ttl_tree_object" ColumnName="ttl_tree_object" />
+          <ScalarProperty Name="ttl_tree_object_type" ColumnName="ttl_tree_object_type" />
+          <ScalarProperty Name="ttl_tree_df_id" ColumnName="ttl_tree_df_id" />
+          <ScalarProperty Name="ttl_files_id" ColumnName="ttl_files_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

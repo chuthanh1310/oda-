@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f861e9b6344f45a3a284f69becb5da4c" Name="Diagram1" ZoomLevel="21">
+        <EntityTypeShape EntityType="odaModel.bgmap_commune" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.bgmap_district" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.bgmap_province" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_boviaviahe" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_canal" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_coc" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_congtrinhcapnuocsach" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_dam" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_denchieusang" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_diemngap" Width="1.5" PointX="12.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_duongong" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_flood_spillway" Width="1.5" PointX="14.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_gieng" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_hoga" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_hotrongcay" Width="1.5" PointX="6.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_irrigation_sewer" Width="1.5" PointX="16.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_irrigation_works" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_nhamayxulynuocthai" Width="1.5" PointX="18.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_pump_station" Width="1.5" PointX="8.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_reservoir" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_reservoir_stations" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_thongsoquantrac" Width="1.5" PointX="22.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_timduong" Width="1.5" PointX="22.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_trucuuhoa" Width="1.5" PointX="10.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.iw_vuotnoi" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.khudancu3857" Width="1.5" PointX="24.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.monitoring_data" Width="1.5" PointX="24.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.sys_function_role" Width="1.5" PointX="24.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.sys_role" Width="1.5" PointX="24.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.sys_thongso_kythuat" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.sys_thongso_kythuat_detail" Width="1.5" PointX="2.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.sys_user_ho" Width="1.5" PointX="26.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.sys_user_httn" Width="1.5" PointX="26.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.tbl_danhmuc_duan" Width="1.5" PointX="26.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.tbl_danhmuc_hethong" Width="1.5" PointX="26.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.tbl_duytubaoduong" Width="1.5" PointX="26.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="odaModel.tbl_tutailieu_files" Width="1.5" PointX="26.75" PointY="26.75" IsExpanded="true" />
+        <AssociationConnector Association="odaModel.bgmap_commune_fk" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
